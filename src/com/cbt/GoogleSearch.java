@@ -1,10 +1,11 @@
 package com.cbt;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class SeleniumDemo {
+public class GoogleSearch {
+
+	
 
 	public static void main(String[] args) {
 		
@@ -13,9 +14,7 @@ public class SeleniumDemo {
 		
 		WebDriver driver= new FirefoxDriver();
 		
-		driver.get("http://cybertekschool.com");
-		
-		
-	}
+		driver.get("https://learn.cybertekschool.com/courses/62/pages/recording-va-selenium-introduction?module_item_id=1932");
 	
+}
 }
